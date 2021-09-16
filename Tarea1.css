@@ -1,0 +1,65 @@
+#texto{
+	width: 400px;
+	font-size: 40px;
+	border: 3px solid black;
+}
+
+#texto1{
+	width: 400px;
+	font-size: 40px;
+	border: 3px solid black;
+}
+
+
+
+
+*{
+	margin:0,
+	padding:0;
+    box-sizing: border-box;
+}
+body{
+	border-image: background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+s
+	windth:100%;
+	height: 100vh;
+	font-family: 'roboto' , sans-serif;
+	display: flex; 
+	justify-content: center;
+	align-items:  center;
+}
+.redes{
+	width: 300px;
+	height: 60px;
+	background: #fff;
+	box-shadow: 0 0 60px rgba(0 ,0, 0.582);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.redes .fab{
+	margin: 0 15px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #000;
+	border-radius: 50%;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.3)
+	transition: all 0.3s aese;
+}
+
+.redes .icon1:hover{
+	background: #3b5998;
+}
+
+.redes .icon2:hover{
+	background:#C13584;
+}
+.redes .icon3:hover{
+	background:#00acee;
+}
